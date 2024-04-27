@@ -1,8 +1,8 @@
-##Introduction (1)
+## Introduction (1)
 
 This document introduces a machine learning-powered tool designed to predict disease risk using user-provided data. The tool leverages the Naive Bayes algorithm, known for its efficiency and ease of implementation.
 
-##Related Work (2)
+## Related Work (2)
 
 [3] Naresh Kumar and Nripendra Narayan Das employed Logistic Regression to predict various diseases. Their model holds promise for early screening and could be applied in medical image segmentation and cancer classification.
 [13] Ciarán M. Lee, Jonathan G. Richens, and Saurabh Johri investigated a probabilistic approach using Bayesian networks for disease diagnosis. Their counterfactual diagnosis approach achieved accuracies comparable to human doctors.
@@ -11,7 +11,7 @@ Motivation (2)
 
 The early detection of diseases can significantly improve healthcare outcomes. Machine learning algorithms excel at processing massive datasets and uncovering hidden patterns, making them ideal for disease prediction. This study aims to contribute to this field by investigating the performance of the Naive Bayes algorithm in predicting diabetes risk.
 
-##Proposed Model (3)
+## Proposed Model (3)
 
 We propose a disease prediction tool that utilizes the Naive Bayes algorithm. While this initial implementation focuses on Naive Bayes for its simplicity, we plan to explore incorporating multiple algorithms for a hybrid model in the future. Our model aims to:
 
@@ -26,7 +26,7 @@ Naive Bayes Algorithm (3.1)
 
 The Naive Bayes algorithm is a classifier based on Bayes' theorem, a fundamental concept in probability theory. It calculates the probability of an event considering its prior probability and the evidence's impact.
 
-##Steps Involved (3.2)
+## Steps Involved (3.2)
 
 User Input: The user selects 4-5 symptoms from a predefined list.
 Algorithm Application: The algorithm processes the user input and searches for the most probable disease based on the dataset's probabilities.
